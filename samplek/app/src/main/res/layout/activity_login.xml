@@ -1,0 +1,37 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.abhishek.samplek.MainActivity">
+    <TextView
+        android:id="@+id/abc"
+        android:text="ABC"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:textSize="60sp"
+        android:background="#6495"
+        />
+
+    <TextView
+        android:id="@+id/def"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:text="DEF"
+        android:textSize="60sp"
+        android:background="#e60"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="GHI"
+        android:textSize="60sp"
+        android:background="#e60f5c"
+        android:layout_weight="1"
+        />
+
+</LinearLayout>
