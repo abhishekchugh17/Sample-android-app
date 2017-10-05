@@ -1,4 +1,4 @@
-package com.example.abhishek.samplek;
+package com.example.abhishek.sample;
 
 import org.junit.Test;
 

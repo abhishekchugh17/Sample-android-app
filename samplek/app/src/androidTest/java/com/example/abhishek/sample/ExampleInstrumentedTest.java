@@ -1,4 +1,4 @@
-package com.example.abhishek.samplek;
+package com.example.abhishek.sample;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.abhishek.samplek", appContext.getPackageName());
+        assertEquals("com.example.abhishek.sample", appContext.getPackageName());
     }
 }
